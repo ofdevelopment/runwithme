@@ -1,0 +1,21 @@
+html {
+  background: rgb(113,44,105);
+  background: linear-gradient(45deg, rgba(113,44,105,1) 0%, rgba(34,94,158,1) 100%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  background: transparent;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.h1, h1 {
+  font-variant: small-caps;
+}

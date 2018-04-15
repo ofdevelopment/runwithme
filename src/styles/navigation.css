@@ -1,0 +1,32 @@
+.navbar {
+    background: none;
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    margin-bottom: 42px;
+    padding: 15px;
+}
+
+.logo-wrapper {
+    display: inline-block;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    font-variant: small-caps;
+    line-height: 84px;
+    -webkit-transform: skew(-15deg,-15deg);
+    -ms-transform: skew(-15deg,-15deg);
+    transform: skew(-20deg,-5deg);
+    background-image: -webkit-linear-gradient(45deg, rgba(195,255,33, 1) 0%, rgba(33,155,158,1) 100%);
+    background-image: -o-linear-gradient(45deg, rgba(195,255,33, 1) 0%, rgba(33,155,158,1) 100%);
+    background-image: linear-gradient(45deg, rgba(195,255,33, 1) 0%, rgba(33,155,158,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    -webkit-filter: drop-shadow(2px 2px 20px #000);
+    filter: drop-shadow(-5px 5px 10px #000);
+}
